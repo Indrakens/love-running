@@ -34,7 +34,8 @@ h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -66,7 +67,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -130,10 +132,9 @@ h2 {
     float: right;
 }
 
-#cener-about {
+#center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -166,7 +167,25 @@ hr {
     text-align: right;
 }
 
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
 
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
-
-
+#circle-cover-bg {
+    background: url('../img/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
