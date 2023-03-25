@@ -267,6 +267,11 @@ footer {
     padding: 30px;
 }
 
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
